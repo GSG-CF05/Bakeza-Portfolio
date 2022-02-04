@@ -37,3 +37,53 @@ header {
 .navigation a:hover {
     color: #cdb4db;
 }
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("../img/2222.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main .background {
+    background-color: #f0f0f0;
+    opacity: 0.8;
+    padding: 20px;
+}
+
+.main h2 {
+    color: black;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #7a588d;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: black;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.social-icons a {
+    color: #503461;
+    font-size: 2em;
+    padding-right: 30px;
+}
